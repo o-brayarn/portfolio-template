@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.scss";
 import profile from "../../assets/profile.svg";
+import { RiArrowRightUpLine } from "react-icons/ri";
 
 const Home = () => {
   return (
@@ -15,7 +16,10 @@ const Home = () => {
           I design, create, renovate, and maintain modern websites and
           applications. I solve all your business problems.
         </p>
-        <input type="button" value="Lets Talk" />
+        <button>
+          Lets Talk
+          <RiArrowRightUpLine size={28} />
+        </button>
       </div>
     </section>
   );
